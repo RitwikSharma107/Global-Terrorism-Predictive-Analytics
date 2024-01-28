@@ -1,0 +1,22 @@
+
+Topic Modeling
+Number of Topics: 5, Perplexity: 6.920436509164585
+Number of Topics: 10, Perplexity: 7.115299215156357
+Number of Topics: 15, Perplexity: 7.340088318288282
+Number of Topics: 20, Perplexity: 7.58787203377159
+Best Model - Number of Topics: 5
+
+Distribution of words most important for each topic
+Topic 0 - Top Words: general, electric, belonging, unknown, damaged, strike, part, two, bombed, nearby
+Topic 1 - Top Words: city, sioux, attacks, south, poles, many, nebraska, beef, packers, iowa
+Topic 2 - Top Words: ghitani, grisha, horses, niyaz, kuyi, paika, morgado, maraqisha, calamba, doberdan
+Topic 3 - Top Words: police, states, united, unknown, perpetrators, casualties, colorado, car, building, bomb
+Topic 4 - Top Words: detonated, company, san, kresge, exploded, inflicted, francisco, oakland, paint, juan
+
+Predictive Modeling
+
+XGBoostClassifier
+ROC AUC: 0.83
+
+XGBoostClassifier (With Political Stabilty)
+ROC AUC: 0.85
